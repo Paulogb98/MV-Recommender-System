@@ -1,0 +1,12 @@
+services:
+  mv_recommender:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501" # Mapeia a porta do contêiner para a máquina host
+    volumes:
+      - .:/app # Monta o diretório do projeto local dentro do contêiner
+    env_file:
+      - .env # Define as variáveis de ambiente a partir do arquivo .env
+    container_name: mv_recommender_container

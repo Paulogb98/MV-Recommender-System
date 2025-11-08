@@ -1,0 +1,7 @@
+streamlit==1.40.2
+requests==2.32.3
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+python-dotenv==1.0.1
+joblib==1.5.2

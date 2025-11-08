@@ -1,0 +1,28 @@
+# Ignorar arquivos de variáveis de ambiente
+.env
+
+# Ignorar arquivos temporários do sistema operacional
+*.log
+*.tmp
+.DS_Store
+
+# Ignorar dependências locais e cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignorar configurações locais de IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar ambientes virtuais
+.venv/
+
+# Ignorar modelos e dados não essenciais
+recommender/models/knn_model.pkl
+recommender/models/mappers.pkl
+data/ratings.csv

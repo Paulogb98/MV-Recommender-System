@@ -1,0 +1,52 @@
+# Ignore environment variable files
+.env
+
+# Ignore OS temp files
+*.log
+*.tmp
+.DS_Store
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore local Python dependencies and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Ignore local IDE/editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.claude/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore frontend dependencies and build output
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# Ignore large model/pickle files and the raw MovieLens dataset (downloaded together
+# in the same zip, only used for retraining — see data/README.md and ml/README.md).
+# The compact artifacts in ml/artifacts/*.parquet ARE versioned (not covered here).
+*.pkl
+data/*.csv
+
+# pyproject.toml and uv.lock ARE versioned (not covered by any rule above).

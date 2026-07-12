@@ -1,0 +1,12 @@
+:root {
+  --mv-bg: #fbfbfa;
+  --mv-card: #ffffff;
+  --mv-text: #1d1d1f;
+  --mv-muted: #6e6e73;
+  --mv-border: rgba(0, 0, 0, 0.08);
+  --mv-border-faint: rgba(0, 0, 0, 0.06);
+  --mv-hover: rgba(0, 0, 0, 0.045);
+  --mv-skeleton: rgba(0, 0, 0, 0.055);
+  --mv-chip-bg: rgba(0, 0, 0, 0.05);
+  --mv-accent: #e8272b;
+}

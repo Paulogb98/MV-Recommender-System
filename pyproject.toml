@@ -1,0 +1,28 @@
+[project]
+name = "mv-recommender-system"
+version = "1.0.0"
+description = "Movie recommender system — FastAPI backend, item-item collaborative filtering ML pipeline"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn[standard]==0.34.0",
+    "pydantic-settings==2.7.1",
+    "pandas==2.2.3",
+    "pyarrow==17.0.0",
+    "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+ml = [
+    "scikit-learn==1.5.2",
+    "scipy==1.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==8.3.4",
+    "pytest-asyncio==0.25.2",
+]
+
+[tool.uv]
+package = false

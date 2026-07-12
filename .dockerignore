@@ -1,0 +1,13 @@
+data/ratings.csv
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+node_modules
+frontend/dist
+frontend/.vite
+.env
+*.md
+ml/notebooks
